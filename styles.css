@@ -1,14 +1,21 @@
 
 /* Your CSS Code here. */
-table{
-	width:500px;
+table,th,td{
+/* 	width:100%; */
 	border:1px solid black;
+	border-collapse: collapse;
+
+}
+thead{
+	background-color:#c0504d;
+/* 	da9694 
+	f2dcdb*/
 }
 th{
+	color:white;
+	font-weight:300;
 	text-align:left;
-	border:1px solid black;
 }
 td{
-	border:1px solid black;
 	text-align:right;
 }
